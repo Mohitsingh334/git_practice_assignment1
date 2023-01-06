@@ -1,11 +1,11 @@
 
 let count=0;
 for(let i=1;i,=num;i++){
- if(num%i){
+ if(num%i==0){
 count++
 }
 
-if(cpunt==1){
-console.log("prime)
+if(count==1){
+console.log(num,"is a prime")
 }else{
-console.log(Not prime);
+console.log(num ," is not prime");

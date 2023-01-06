@@ -1,9 +1,9 @@
 let str="naman";
 for(let i=str.length;i>0;i--){
-bag=str[i];
+bag+=str[i];
 }
 
-if(str=bag){
-console.log("Palindrome")
+if(str==bag){
+console.log(str,"is a Palindrome")
 }else{
-console.log("Palindomre);
+console.log(str, "is  a Palindrome");
